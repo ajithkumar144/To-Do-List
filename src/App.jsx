@@ -72,6 +72,7 @@ function App() {
           </button>
         </footer>
       )}
+      <p style={{textAlign:"center",color:"#666",marginTop:"20px",fontSize:"10px"}}>Designed by Ajith Kumar</p>
     </div>
   );
 }
