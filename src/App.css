@@ -1,0 +1,83 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem 0.75rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.app-main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  flex: 1;
+  width: 100%;
+}
+
+.app-header {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+.date-display {
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.stats-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  background: var(--bg-card);
+  padding: 1rem 0.5rem;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-sm);
+  width: 100%;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-value {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--accent-primary);
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 0.25rem;
+}
+
+.app-footer {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+.clear-btn {
+  width: 100%;
+  padding: 0.75rem;
+  color: var(--danger);
+  font-size: 0.9rem;
+  font-weight: 600;
+  background: rgba(239, 68, 68, 0.05);
+  border-radius: var(--radius-lg);
+  transition: background 0.2s;
+}
+
+.clear-btn:hover {
+  background: rgba(239, 68, 68, 0.1);
+}
